@@ -1,0 +1,125 @@
+@media screen and (max-width:576px) {
+*{
+    max-width: 100%;
+  
+}
+    /* Nav Responsive start here */
+    .nav-container {
+        flex-direction: column;
+    }
+
+    .logo-container {
+        padding: 0;
+    }
+
+    .nav-items-container {
+        flex-direction: column;
+    }
+
+    .nav-items-container a {
+        margin-bottom: 20px;
+    }
+
+    .nav-items-container .nav-btn {
+        width: 100%;
+        margin-top: 20px;
+    }
+
+    /* Nav Responsive End here */
+
+    /* ..................................................................................................................................... */
+
+    /* Gamer Responsive Start Here */
+
+    .gamer-container {
+        flex-direction: column;
+    }
+
+    .gamer-img {
+        width: 100%;
+    }
+
+    .gamer-text {
+        width: 100%;
+        text-align: center;
+    }
+
+    /* Gamer Responsive End Here */
+
+    /* ..................................................................................................................................... */
+
+    /* Gaming Videos Responsive Start Here */
+    .box-container{
+        flex-direction: column;
+    }
+    .boxes{
+        width: 100%;
+    }
+    
+    /* Gaming Videos Responsive End Here */
+
+    /* ................................................................................................................................. */
+
+    /* Online Gaming Responsive Start Here */
+    .online-section-container{
+        flex-direction: column;
+     
+    }
+
+    .online-section-text{
+        width: 100%;
+        text-align: center;
+        margin: 0;
+    }
+
+    .online-section-img{
+        width: 75%;
+    }
+
+    /* Online Videos Responsive End Here */
+
+    /* ................................................................................................................................. */
+
+    /* Gaming Link Responsive Start Here */
+.link-container{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    padding: 0px;
+} 
+.link-btn{
+    font-size: 16px;
+}
+
+.link-btn:hover{
+    font-size: 16px;
+}
+    /* Gaming Link Responsive End Here */
+
+    /* ................................................................................................................................ */
+
+    /* Footer Responsive Start Here */
+.footer{
+    margin: 0;
+    padding: 0;
+}
+
+.menu-item{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+}
+
+.social-icon a{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+}
+
+.menu-item-2{
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+}
+
+    /* Footer Responsive End Here */
+
+
+
+}
