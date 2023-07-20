@@ -4,15 +4,12 @@
     /* ................................................................................................................................. */
 
     /* Navbar Styles  start here */
-    * {
-        box-sizing: border-box;
-    }
 
     .nav-container {
         min-height: 50px;
         display: flex;
         align-items: center;
-        max-width: 1400px;
+        /* max-width: 1400px; */
         margin: 0 auto;
         background: #fff;
         box-shadow: 0px 4px 30px 0px rgba(0, 0, 0, 0.05);
@@ -76,7 +73,8 @@
 
     .gamer-container {
         padding: 0 50px 50px 50px;
-        max-width: 1400px;
+        /* width: 100%; */
+        /* max-width: 1400px; */
         min-height: 50px;
         display: flex;
         background: linear-gradient(90deg, rgba(255, 66, 165, 0.03) 0%, rgba(255, 66, 165, 0.03) 100%);
@@ -175,13 +173,13 @@
     }
 
     .box-container {
-        max-width: 1400px;
-        margin: 50px 0 auto;
+        /* max-width: 1400px; */
+        margin:   0 auto;
         min-height: 400px;
         display: flex;
         gap: 25px;
         padding-left: 50px;
-        padding-right: 50px;
+        padding-right: 50px; 
     }
 
     .boxes {
@@ -233,7 +231,7 @@
 
     /* Online Gaming Styles Start Here */
     .online-section-container {
-        max-width: 1400px;
+        /* max-width: 1400px; */
         min-height: 400px;
         display: flex;
         margin: 0 auto;
@@ -294,15 +292,14 @@
 
     /* Gaming Link Styles Start Here */
     .link-container {
-        width: 100%;
+        /* width: 100%; */
         min-height: 200px;
         margin: 0 auto;
         margin-bottom: 150px;
         padding: 0px 50px 0px 50px;
         display: grid;
-        grid-template-columns: repeat(5, 1fr);
-        align-items: center;
-        text-align: center;
+        grid-template-columns: repeat(5, 1fr) ;
+        justify-content: center;
     }
 
     .link-btn a {
@@ -344,15 +341,14 @@
 /* .................................................................................................................................... */
 
     /* Footer Styles Start Here */
-footer{
-    padding: 0px;
-    margin: 0px;
-}
+
 .footer-container{
-    max-width: 1400px;
+    /* max-width: 1400px; */
     min-height: 400px;
     background: #0B0223;
     max-width: 100%;
+    margin: 0px;
+    padding: 0px;
 }
 
 .footer-content {

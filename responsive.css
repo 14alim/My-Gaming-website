@@ -98,10 +98,7 @@
     /* ................................................................................................................................ */
 
     /* Footer Responsive Start Here */
-.footer{
-    margin: 0;
-    padding: 0;
-}
+
 
 .menu-item{
     display: grid;
@@ -117,6 +114,7 @@
     display: grid;
     grid-template-columns: repeat(2,1fr);
 }
+
 
     /* Footer Responsive End Here */
 
