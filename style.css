@@ -230,6 +230,7 @@
     /* ................................................................................................................................. */
 
     /* Online Gaming Styles Start Here */
+
     .online-section-container {
         /* max-width: 1400px; */
         min-height: 400px;
@@ -239,8 +240,9 @@
 
     .online-section-text {
         width: 50%;
-        text-align: left;
-        margin: 150px 80px 0 80px;
+        text-align: center;
+        /* margin: 150px 80px 0 80px; */
+        padding-top: 100px;
     }
 
     .online-section-text h3 {
